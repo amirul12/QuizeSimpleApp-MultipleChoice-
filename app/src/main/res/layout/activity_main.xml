@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+     android:orientation="vertical"
+    tools:context="com.edupointbd.amirul.quizeappsdemo.MainActivity">
+
+    <TextView
+        android:id="@+id/tvQuestion"
+        android:textSize="22sp"
+        android:layout_gravity="center_horizontal"
+        android:text="question- who are you?"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ch1"
+        android:textColor="#fff"
+        android:layout_marginTop="22dp"
+        android:background="@color/colorPrimary"
+        android:text="Question 1 "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ch2"
+        android:textColor="#fff"
+        android:layout_marginTop="22dp"
+        android:background="@color/colorPrimary"
+        android:text="Question 2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ch3"
+        android:textColor="#fff"
+        android:layout_marginTop="22dp"
+        android:background="@color/colorPrimary"
+        android:text="Question 3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/ch4"
+        android:textColor="#fff"
+        android:layout_marginTop="22dp"
+        android:background="@color/colorPrimary"
+        android:text="Question 4 "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <TextView
+        android:id="@+id/score"
+        android:textSize="22sp"
+        android:layout_marginTop="22dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Score                     3/5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+</LinearLayout>

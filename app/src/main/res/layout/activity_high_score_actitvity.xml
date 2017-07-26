@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_high_score_actitvity"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+  android:orientation="vertical"
+ android:padding="50dp"
+    android:background="@color/colorAccent"
+    android:gravity="center"
+    tools:context="com.edupointbd.amirul.quizeappsdemo.HighScoreActitvity">
+
+    <TextView
+        android:id="@+id/scoreid"
+        android:textSize="35sp"
+        android:textColor="@color/colorPrimary"
+
+        android:text="score"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <TextView
+        android:id="@+id/highScore"
+        android:text="hight score"
+        android:textSize="35sp"
+        android:textColor="@color/colorPrimary"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:layout_marginTop="50dp"
+        android:id="@+id/repeat"
+        android:textColor="#fff"
+        android:background="@color/colorPrimaryDark"
+        android:text="TRY Again"
+        android:onClick="onClick"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+</LinearLayout>
